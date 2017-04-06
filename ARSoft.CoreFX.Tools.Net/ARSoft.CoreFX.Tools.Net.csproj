@@ -3,25 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <AssemblyName>ARSoft.CoreFX.Tools.Net</AssemblyName>
-    <PackageId>ARSoft.CoreFX.Tools.Net</PackageId>
-    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
-    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <PackageId>ARSoft.Tools.NetCore.Custom</PackageId>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Authors>ARSoft.Tools.NetCore</Authors>
+    <Description>ARSoft.Tools.Net</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BouncyCastle\BouncyCastle.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Collections.NonGeneric" Version="4.0.1" />
-    <PackageReference Include="System.Diagnostics.TraceSource" Version="4.0.0" />
-    <PackageReference Include="System.Globalization.Extensions" Version="4.0.1" />
-    <PackageReference Include="System.Net.NameResolution" Version="4.0.0" />
-    <PackageReference Include="System.Net.NetworkInformation" Version="4.1.0" />
-    <PackageReference Include="System.Net.Security" Version="4.0.0" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.1.2" />
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.TraceSource" Version="4.3.0" />
+    <PackageReference Include="System.Globalization.Extensions" Version="4.3.0" />
+    <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
+    <PackageReference Include="System.Net.NetworkInformation" Version="4.3.0" />
+    <PackageReference Include="System.Net.Security" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

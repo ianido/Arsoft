@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net462</TargetFrameworks>
+    <AssemblyName>ARSoft.Tools.Net</AssemblyName>
+    <RootNamespace>ARSoft.Tools.Net</RootNamespace>
+    <PackageId>ARSoft.Tools.Net.Combined</PackageId>
+    <Authors>Israel Garcia</Authors>
+    <Company />
+    <Description>Combined version of net462 and .netCore</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARSoft.Tools.Net", "ARSoft.Tools.Net\ARSoft.Tools.Net.csproj", "{65BFA748-C640-49B0-B506-34BBB165233A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARSoft.CoreFX.Tools.Net", "ARSoft.CoreFX.Tools.Net\ARSoft.CoreFX.Tools.Net.csproj", "{9C3C1C83-31B8-415C-BB60-EDEEEF2834EF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BouncyCastle", "BouncyCastle\BouncyCastle.csproj", "{20DB2560-4C69-4581-B66F-4E425A7420F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArsoftTestServer", "ArsoftTestServer\ArsoftTestServer.csproj", "{652F6442-1917-4623-B1E1-DCAC1707AA18}"
 EndProject
@@ -29,10 +27,6 @@ Global
 		{9C3C1C83-31B8-415C-BB60-EDEEEF2834EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3C1C83-31B8-415C-BB60-EDEEEF2834EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3C1C83-31B8-415C-BB60-EDEEEF2834EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20DB2560-4C69-4581-B66F-4E425A7420F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20DB2560-4C69-4581-B66F-4E425A7420F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20DB2560-4C69-4581-B66F-4E425A7420F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20DB2560-4C69-4581-B66F-4E425A7420F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{652F6442-1917-4623-B1E1-DCAC1707AA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{652F6442-1917-4623-B1E1-DCAC1707AA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{652F6442-1917-4623-B1E1-DCAC1707AA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
